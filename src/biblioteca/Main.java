@@ -3,10 +3,6 @@ package biblioteca;
 import java.util.List;
 import javax.persistence.*;
 
-/**
- *
- * @author Edwin Castañeda
- */
 public class Main {
 
     private EntityManagerFactory emf;

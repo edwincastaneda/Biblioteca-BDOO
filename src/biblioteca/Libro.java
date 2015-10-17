@@ -4,12 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 import javax.persistence.*;
 
-
-/**
- *
- * @author Edwin Castañeda
- */
-
 @Entity
 public class Libro implements Serializable {
     @Id @GeneratedValue
@@ -28,15 +22,5 @@ public class Libro implements Serializable {
         this.isbn = isbn;
         this.editorial = editorial;
         this.autores = autores;
-    }
-
-
-
-    @Override
-    public String toString() {
-        return "Libro{" + "id=" + id + ", titulo=" + titulo + ", isbn=" + isbn + ", editorial=" + editorial + ", autores=" + autores + '}';
-    }
-    
-    
-    
+    }   
 }

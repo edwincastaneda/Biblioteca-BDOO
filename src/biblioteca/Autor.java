@@ -3,11 +3,6 @@ package biblioteca;
 import java.io.Serializable;
 import javax.persistence.*;
 
-/**
- *
- * @author Edwin Castañeda
- */
-
 @Entity
 public class Autor implements Serializable {
     @Id @GeneratedValue
@@ -19,11 +14,4 @@ public class Autor implements Serializable {
         this.nombre = nombre;
         this.apellidos = apellidos;
     }
-
-    @Override
-    public String toString() {
-        return "Autor{" + "id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + '}';
-    }
-
-    
 }
